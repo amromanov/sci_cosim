@@ -1,6 +1,6 @@
 Name: sci_cosim
-Version: 0.1.0
-Date: 2015-16-11
+Version: 0.1.1
+Date: 2015-18-11
 Author: A.M. Romanov <AlexRomashka@yandex.ru>
 Maintainer: A.M. Romanov <AlexRomashka@yandex.ru>
 Title: Octave-Scilab co-simulation toolbox
