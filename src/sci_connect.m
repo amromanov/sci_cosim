@@ -17,7 +17,11 @@ function result = sci_connect(port)
 %%*************************************************************************
 
   if(nargin<1)  %If not set, using default Toolbox backdoor port
-     port = 28020;
+    if(ispc)
+      port = 27020;
+    else
+      port = 27020 + geteuid;
+    end  
   end
 
   global sci_sim_client;  %Making client socket global for all functions
