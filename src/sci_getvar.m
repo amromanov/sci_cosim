@@ -39,11 +39,12 @@ function sci_getvar(varlist)
     cmd=sprintf('\\mclose(f);\n');
     send(sci_sim_client,cmd);
 
-    while (~exist('sci_vars_rep.dat','file'))
      %Waiting for result
-    end
-    delete('sci_vars_rep.dat');    %Removing sci_vars_rep.dat, because we need it
-                                   %only to show Octave, that Scilab transferred data
+    [res,~]=unlink('sci_vars_rep.dat');
+    while (res~=0)                          %Waiting till sci_vars_rep.dat will be created
+      [res,~]=unlink('sci_vars_rep.dat');   %by Scilab and then removing it, because we need it
+                                            %only to show Octave, that Scilab transferred data
+    end                                        
     evalin("caller",'load sci_vars_transfer.mat'); %Saving variables to file
     
 end
