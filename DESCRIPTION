@@ -1,9 +1,9 @@
 Name: sci_cosim
-Version: 0.1.1
-Date: 2015-18-11
+Version: 0.1.2
+Date: 2015-5-12
 Author: A.M. Romanov <AlexRomashka@yandex.ru>
 Maintainer: A.M. Romanov <AlexRomashka@yandex.ru>
-Title: Octave-Scilab co-simulation toolbox
+Title: Octave-Scilab co-simulation package
 Description: Toolbox provides the functions for variable exchange between Octave and Scilab workspaces, and for the remote commands execution in Scilab, such as starting xcos simulation.
 The main goal of this toolbox is to make an alternative for Simulink in Octave from Scilab xcos.
 SystemRequirements: scilab (>=5.5.2), scilab Toolbox Backdoor (>=0.2-1) 

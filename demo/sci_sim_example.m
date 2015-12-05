@@ -17,7 +17,7 @@ if(result)
   Tf=7;                             %Simulation time (not more then maximum time defined in model configuration)
 
   tic
-  sci_setvar('k','stp','Tau','Tf'); %Transferring variables to MATLAB
+  sci_setvar('k','stp','Tau','Tf'); %Transferring variables to SciLab
   sci_sim('sci_ap_model.xcos');     %Running xcos simulation
   sci_getvar('result');             %Recieving result variable from SciLab
   toc
