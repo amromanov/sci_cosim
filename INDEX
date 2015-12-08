@@ -1,4 +1,4 @@
-sci_cosim >> Octave-Scilab co-simulation toolbox information
+sci_cosim >> Octave-Scilab co-simulation package information
 
 Functions:
  sci_connect     - connects to running SciLab with Toolbox Backdoor
@@ -7,9 +7,5 @@ Functions:
  sci_getvar      - transfers variables from Scilab to Octave workspace
  sci_cmd         - executes single command in Scilab
  sci_sim         - starts xcos simulation in Scilab
-
-Examples:
- sci_ap_model.xcos - xcos model for toolbox usage example (sci_sim_example) 
- sci_sim_example   - Octave-Scilab co-simulation toolbox usage example. 
 
 

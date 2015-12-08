@@ -1,6 +1,6 @@
 % Simple simulation example
 %
-%%*****************Octave-Scilab co-simulation toolbox*********************
+%%*****************Octave-Scilab co-simulation package*********************
 %%Moscow, Control Problems Department MIREA, 2015
 %%Authors: Romanov A
 %%
